@@ -1,7 +1,7 @@
 const categoryItemsRef = document.querySelectorAll(".item");
 console.log(`В списке ${categoryItemsRef.length} категории.`);
 
-categoryItemRef.forEach((item) => {
+categoryItemsRef.forEach((item) => {
   console.log(`Категория: ${item.firstElementChild.textContent} 
 Количество элементов: ${item.lastElementChild.children.length}`);
 });
